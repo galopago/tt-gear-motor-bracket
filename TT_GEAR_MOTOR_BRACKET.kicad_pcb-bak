@@ -85,9 +85,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "gerber/"))
   )
 
   (net 0 "")
@@ -102,11 +102,11 @@
   )
 
   (module MountingHole:MountingHole_4.3mm_M4 (layer F.Cu) (tedit 56D1B4CB) (tstamp 60513E4A)
-    (at 99.695 62.23)
+    (at 77.5 61.25)
     (descr "Mounting Hole 4.3mm, no annular, M4")
     (tags "mounting hole 4.3mm no annular m4")
     (attr virtual)
-    (fp_text reference REF** (at 0 -5.3) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -5.3) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_4.3mm_M4 (at 0 5.3) (layer F.Fab)
@@ -125,7 +125,7 @@
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (attr virtual)
-    (fp_text reference REF** (at 0 -4.2) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab)
@@ -144,7 +144,7 @@
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (attr virtual)
-    (fp_text reference REF** (at 0 -4.2) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -4.2) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_3.2mm_M3 (at 0 4.2) (layer F.Fab)
@@ -163,7 +163,7 @@
     (descr "Mounting Hole 8.4mm, no annular, M8")
     (tags "mounting hole 8.4mm no annular m8")
     (attr virtual)
-    (fp_text reference REF** (at 0 -9.4) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -9.4) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_8.4mm_M8 (at 0 9.4) (layer F.Fab)
@@ -182,7 +182,7 @@
     (descr "Mounting Hole 2.7mm, no annular")
     (tags "mounting hole 2.7mm no annular")
     (attr virtual)
-    (fp_text reference REF** (at 0 -3.7) (layer F.SilkS)
+    (fp_text reference REF** (at 0 -3.7) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value MountingHole_2.7mm (at 0 3.7) (layer F.Fab)
